@@ -15,13 +15,13 @@ describe('Pruebas authReducer', () => {
         const action = {
             type: types.login,
             payload: {
-                name: 'Silvia'
+                name: 'jorge'
             }
         }
         const state = authReducer({logged: false}, action)
 
         expect(state).toEqual({
-            name: 'Silvia',
+            name: 'jorge',
             logged: true
         })
     })

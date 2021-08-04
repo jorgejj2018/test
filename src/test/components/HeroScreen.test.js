@@ -16,11 +16,7 @@ describe('Pruebas de componente <HeroScreen/>', () => {
         length: 10
     }
 
-    // const wrapper = mount(
-    //     <MemoryRouter initialEntries={['/Hero']}>               
-    //         <HeroScreen history={historyMock}/>
-    //     </MemoryRouter>
-    // ) 
+
 
     test('El componente debe funcionar correctamente', () => {
 
@@ -34,10 +30,18 @@ describe('Pruebas de componente <HeroScreen/>', () => {
     })
     
     
-    // test('Mostrar el redirect si no tenemos el URL del heroe', () => {
+  
+
+})
+
+
+    // const wrapper = mount(
+    //     <MemoryRouter initialEntries={['/Hero']}>               
+    //         <HeroScreen history={historyMock}/>
+    //     </MemoryRouter>
+    // ) 
+  // test('Mostrar el redirect si no tenemos el URL del heroe', () => {
         
         // expect(wrapper).toMatchSnapshot();
 
     // })
-
-})

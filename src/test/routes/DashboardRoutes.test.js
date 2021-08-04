@@ -13,7 +13,7 @@ describe('Pruebas en <DashboardRoutes/>', () => {
         dispatch: jest.fn(),
         user:{
             logged: true,
-            name: 'Geral'
+            name: 'jorge'
         }
     }    
 
@@ -31,7 +31,7 @@ describe('Pruebas en <DashboardRoutes/>', () => {
             </AuthContext.Provider>
         )
         expect(wrapper).toMatchSnapshot();
-        expect(wrapper.find('.text-info').text().trim()).toBe('Geral')
+        expect(wrapper.find('.text-info').text().trim()).toBe('jorge')
     })
     
 

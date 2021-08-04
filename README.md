@@ -1,4 +1,4 @@
-# :sparkles: Heroes App
+# :sparkles: Text + Heroes
 
 ### ¿Que hace la librería enzyme?
 Es una libreria que nos ayuda a hacer el testing en react facilmente
@@ -8,7 +8,7 @@ Los tipos de pruebas son:
 
 Las pruebas unitarias estan enfocadas en hacer un testing en las funcionalidades mas pequeñas e individuales de un componente.
 
-Las pruebas de integracion son aquellas que se le hacen al proyecto de forma mas amplia, se hacen pruebas en conjuntos o en un componente completo.
+Las pruebas de integracion son aquellas que se le hacen al proyecto de forma mas amplia
 
 ### ¿Qué es Shallow?
 Es una funcion de Enzyme que nos permite probar componentes de forma aisladas.
