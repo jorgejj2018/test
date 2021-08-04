@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Navbar/> Verificar que el nombre de usuario este registrado 1`] = `ReactWrapper {}`;
