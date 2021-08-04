@@ -1,4 +1,4 @@
-# Heroes App
+# :sparkles: Heroes App
 
 ### ¿Que hace la librería enzyme?
 Es una libreria que nos ayuda a hacer el testing en react facilmente
@@ -23,3 +23,13 @@ Toma una instantania de la funcion o componente que se esta testeando en ese mom
 Este renderiza en el DOM del componente
 
 ### ¿Qué es toEqual y para qué sirve?
+toEqual es una funcion que sirve para comparar dos objetos que tengan el mismo valor.
+
+### ¿Qué es toMatchSnapshot?
+es el metodo por el cual se ejecuta el snapshots.
+
+### ¿Que hace la propiedad provider?
+Esta permite la lectura y escritura cuando esta cerrada y solo lectura al estar abierta.
+
+###  ¿Qué es toStrictEqual y para qué sirve?
+Este metodo preba que un objeto es igual a otro, incluyendo a las propiedades indefinidas.
